@@ -14,7 +14,6 @@
             --muted: #555;
             --border: #ddd;
             --bg: #fafafa;
-            --card: #fff;
             --link: #1565c0;
         }
 
@@ -24,7 +23,6 @@
                 --muted: #aaa;
                 --border: #333;
                 --bg: #121212;
-                --card: #1e1e1e;
                 --link: #64b5f6;
             }
         }
@@ -88,18 +86,6 @@
             color: var(--link);
         }
 
-        section.disclaimer {
-            margin-top: 2.5rem;
-            padding: 1.25rem 1rem;
-            background: var(--card);
-            border: 1px solid var(--border);
-            border-radius: 8px;
-        }
-
-        section.disclaimer h2 {
-            margin-top: 0;
-        }
-
         footer {
             margin-top: 2rem;
             font-size: 0.85rem;
@@ -109,6 +95,11 @@
         .back {
             font-size: 0.9rem;
             margin-bottom: 1rem;
+        }
+
+        .related {
+            margin-top: 2rem;
+            font-size: 0.95rem;
         }
     </style>
 </head>
@@ -296,18 +287,9 @@
             </li>
         </ul>
 
-        <section class="disclaimer" aria-labelledby="disclaimer-heading">
-            <h2 id="disclaimer-heading">Disclaimer (not financial advice)</h2>
-            <p>
-                PriceScan converts amounts using third-party exchange rates for
-                convenience only. Rates may be delayed, rounded, or inaccurate.
-                Conversions are <strong>indicative only</strong> and are
-                <strong>not financial, tax, or investment advice</strong>. Always
-                verify amounts with the merchant or your bank before you pay. We are
-                not responsible for losses arising from reliance on converted figures
-                shown in the app.
-            </p>
-        </section>
+        <p class="related">
+            See also: <a href="disclaimer.html">Disclaimer (not financial advice)</a>
+        </p>
 
         <footer>
             <p>&copy; 2026 PriceScan. All rights reserved.</p>

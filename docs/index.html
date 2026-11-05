@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Privacy policies for mobile apps by Justin Lau." />
+    <meta name="description" content="Privacy policies and disclaimers for mobile apps." />
     <title>App policies</title>
     <style>
         :root {
@@ -60,30 +60,27 @@
             border: 1px solid var(--border);
             border-radius: 8px;
             margin-bottom: 0.75rem;
-        }
-
-        a.app-link {
-            display: block;
             padding: 1rem 1.1rem;
-            color: inherit;
-            text-decoration: none;
-        }
-
-        a.app-link:hover {
-            background: rgba(127, 127, 127, 0.08);
         }
 
         .app-name {
             font-weight: 600;
+            margin-bottom: 0.35rem;
         }
 
         .app-meta {
             font-size: 0.9rem;
             color: var(--muted);
-            margin-top: 0.25rem;
+            margin-bottom: 0.75rem;
         }
 
-        a {
+        .doc-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem 1.25rem;
+        }
+
+        .doc-links a {
             color: var(--link);
         }
     </style>
@@ -91,14 +88,16 @@
 
 <body>
     <main>
-        <h1>App privacy policies</h1>
-        <p class="lead">Public privacy and disclaimer pages for app store listings.</p>
+        <h1>App policies</h1>
+        <p class="lead">Privacy policies and disclaimers for app store listings.</p>
         <ul>
             <li>
-                <a class="app-link" href="pricescan/privacy.html">
-                    <div class="app-name">PriceScan</div>
-                    <div class="app-meta">com.justindev.pricescan · Privacy &amp; disclaimer</div>
-                </a>
+                <div class="app-name">PriceScan</div>
+                <div class="app-meta">com.justindev.pricescan</div>
+                <div class="doc-links">
+                    <a href="pricescan/privacy.html">Privacy policy</a>
+                    <a href="pricescan/disclaimer.html">Disclaimer</a>
+                </div>
             </li>
         </ul>
     </main>
