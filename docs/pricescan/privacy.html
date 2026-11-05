@@ -1,302 +1,191 @@
 ---
+layout: policy
+title: PriceScan — Privacy Policy
+description: Privacy policy for PriceScan — camera OCR, exchange rates, ads, and in-app purchases.
+app: PriceScan
+copyright_start: 2026
+footer_contact: false
 ---
-<!DOCTYPE html>
-<html lang="en">
+<header>
+    <h1>PriceScan Privacy Policy</h1>
+    <p class="meta">
+        App: <strong>PriceScan</strong> (com.justindev.pricescan)<br />
+        Effective date: <time datetime="2026-11-05">5 November 2026</time><br />
+        Last updated: <time datetime="2026-11-05">5 November 2026</time>
+    </p>
+</header>
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description"
-        content="Privacy policy for PriceScan — camera OCR, exchange rates, ads, and in-app purchases." />
-    <title>PriceScan — Privacy Policy</title>
-    <style>
-        :root {
-            color-scheme: light dark;
-            --text: #1a1a1a;
-            --muted: #555;
-            --border: #ddd;
-            --bg: #fafafa;
-            --link: #1565c0;
-        }
+<p>
+    This privacy policy describes how <strong>PriceScan</strong> (“the app”,
+    “we”, “us”) handles information when you use our mobile application on
+    Android and iOS. By using the app, you agree to this policy. If you do
+    not agree, please do not use the app.
+</p>
 
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --text: #e8e8e8;
-                --muted: #aaa;
-                --border: #333;
-                --bg: #121212;
-                --link: #64b5f6;
-            }
-        }
+<h2>Summary</h2>
+<ul>
+    <li>
+        Camera images used for text recognition (OCR) are processed on your
+        device. We do not upload your photos to our servers.
+    </li>
+    <li>
+        Exchange-rate requests go to a public rate provider and include
+        currency codes (and standard network data such as your IP address on
+        their side)—not your camera images.
+    </li>
+    <li>
+        Optional scan history and app settings are stored locally on your
+        device until you delete them.
+    </li>
+    <li>
+        The free version shows ads through Google AdMob, which may collect
+        data for advertising as described below.
+    </li>
+    <li>
+        You can buy a one-time “Remove ads” purchase through Google Play or
+        the App Store; payment is handled entirely by the store, not by us.
+    </li>
+</ul>
 
-        * {
-            box-sizing: border-box;
-        }
+<h2>Information we process</h2>
 
-        body {
-            margin: 0;
-            font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica,
-                Arial, sans-serif;
-            line-height: 1.6;
-            color: var(--text);
-            background: var(--bg);
-        }
+<h3>Camera and on-device OCR</h3>
+<p>
+    PriceScan uses your device camera to read prices and text from labels
+    and menus. Frames you capture are processed on-device for optical
+    character recognition (OCR). That processing does not send your images to
+    servers operated by us. You control camera access through your device
+    settings; the app cannot scan without permission you grant.
+</p>
 
-        main {
-            max-width: 42rem;
-            margin: 0 auto;
-            padding: 2rem 1.25rem 3rem;
-        }
+<h3>Scan history (on your device)</h3>
+<p>
+    If you use scan history, the app may save entries locally on your
+    device, including cropped images and related conversion details (such as
+    amounts and currency hints). This data stays on your device unless you
+    clear history in the app or uninstall the app. We do not receive a copy
+    of your scan history.
+</p>
 
-        header {
-            margin-bottom: 2rem;
-            padding-bottom: 1.5rem;
-            border-bottom: 1px solid var(--border);
-        }
+<h3>Exchange rates</h3>
+<p>
+    To show live conversions, the app requests exchange rates from
+    <a href="https://www.frankfurter.app/" rel="noopener noreferrer" target="_blank">Frankfurter</a>
+    (api.frankfurter.dev). Requests include the currency pair being queried
+    (for example USD/EUR). Frankfurter’s servers may log technical data such
+    as IP address and request metadata under their own policies. We do not
+    send photos or OCR text to Frankfurter as part of rate lookups.
+</p>
 
-        h1 {
-            font-size: 1.75rem;
-            line-height: 1.25;
-            margin: 0 0 0.5rem;
-        }
+<h3>App preferences and cache</h3>
+<p>
+    Settings such as theme, language, currency board layout, cached
+    exchange rates, onboarding state, and whether you purchased “Remove
+    ads” are stored locally using your device’s storage (for example
+    SharedPreferences on Android). Clearing app data in system settings
+    removes this information.
+</p>
 
-        .meta {
-            font-size: 0.9rem;
-            color: var(--muted);
-        }
+<h3>Advertising (Google AdMob)</h3>
+<p>
+    When ads are shown, we use the
+    <a href="https://developers.google.com/admob" rel="noopener noreferrer" target="_blank">Google Mobile Ads
+        SDK (AdMob)</a>. Google and its partners may collect and use information such as
+    device identifiers, coarse location (if available to the SDK), app
+    activity related to ads, and diagnostic data to serve and measure ads,
+    including personalized ads where allowed by your settings and applicable
+    law.
+</p>
+<p>
+    You can limit ad personalization on your device (for example, “Opt out
+    of Ads Personalization” on Android or “Limit Ad Tracking” on iOS). If you
+    purchase <strong>Remove ads</strong>, banner advertisements in the app
+    are turned off; the SDK may still initialize as part of the app, but ad
+    units are not displayed while your entitlement is active.
+</p>
+<p>
+    Learn more in
+    <a href="https://policies.google.com/privacy" rel="noopener noreferrer" target="_blank">Google’s Privacy
+        Policy</a>
+    and
+    <a href="https://policies.google.com/technologies/partner-sites" rel="noopener noreferrer" target="_blank">How
+        Google uses data from sites or apps that use our services</a>.
+</p>
 
-        h2 {
-            font-size: 1.15rem;
-            margin: 2rem 0 0.75rem;
-        }
+<h3>In-app purchases</h3>
+<p>
+    The optional non-consumable product
+    <strong>Remove ads</strong> (product ID:
+    <code>com.justindev.pricescan.no_ads</code>) is sold through
+    <strong>Google Play</strong> or the <strong>Apple App Store</strong>.
+    We do not collect or store your payment card details. Purchase and
+    restore flows are handled by the store; we only store a local flag that
+    you own the entitlement so the app can hide ads.
+</p>
 
-        h3 {
-            font-size: 1rem;
-            margin: 1.25rem 0 0.5rem;
-        }
+<h3>Reviews and external links</h3>
+<p>
+    If you choose “Leave a review”, the app may open the store’s review
+    flow. Optional support links (for example, a “Buy me a coffee” page)
+    open in your browser; those sites have their own privacy policies.
+</p>
 
-        p,
-        li {
-            font-size: 0.95rem;
-        }
+<h2>What we do not do</h2>
+<ul>
+    <li>We do not require you to create an account in PriceScan.</li>
+    <li>
+        We do not operate our own backend that receives your camera photos for
+        OCR.
+    </li>
+    <li>
+        We do not sell your personal information as a standalone product.
+    </li>
+</ul>
 
-        ul {
-            padding-left: 1.25rem;
-        }
+<h2>Legal bases (EEA/UK users)</h2>
+<p>
+    Where GDPR applies, we process data to provide the app (contract /
+    legitimate interest), to show ads in the free version (consent or
+    legitimate interest depending on ad type and your choices), and to
+    comply with legal obligations. You may have rights to access, delete, or
+    restrict processing of personal data held by third parties such as
+    Google; contact them using the links above. For data stored only on your
+    device, you can delete it via the app or by clearing app storage.
+</p>
 
-        a {
-            color: var(--link);
-        }
+<h2>Children</h2>
+<p>
+    The app is not directed at children under 13 (or the minimum age in
+    your country). We do not knowingly collect personal information from
+    children. If you believe a child has provided information through a
+    third-party ad or store flow, contact us and we will help you address it
+    with the relevant provider.
+</p>
 
-        footer {
-            margin-top: 2rem;
-            font-size: 0.85rem;
-            color: var(--muted);
-        }
+<h2>Changes</h2>
+<p>
+    We may update this policy from time to time. The “Last updated” date at
+    the top will change when we do. Continued use of the app after changes
+    means you accept the updated policy. For material changes, we may also
+    show a notice in the app.
+</p>
 
-        .back {
-            font-size: 0.9rem;
-            margin-bottom: 1rem;
-        }
+<h2>Contact</h2>
+<p>
+    Questions about this privacy policy or PriceScan data practices:
+</p>
+<ul>
+    <li>
+        Email:
+        <a href="mailto:justinlau99dev@gmail.com">justinlau99dev@gmail.com</a>
+    </li>
+    <li>
+        Support:
+        <a href="https://buymeacoffee.com/liang_99" rel="noopener noreferrer"
+            target="_blank">buymeacoffee.com/liang_99</a>
+    </li>
+</ul>
 
-        .related {
-            margin-top: 2rem;
-            font-size: 0.95rem;
-        }
-    </style>
-</head>
-
-<body>
-    <main>
-        <p class="back"><a href="../index.html">All app policies</a></p>
-        <header>
-            <h1>PriceScan Privacy Policy</h1>
-            <p class="meta">
-                App: <strong>PriceScan</strong> (com.justindev.pricescan)<br />
-                Effective date: <time datetime="2026-11-05">5 November 2026</time><br />
-                Last updated: <time datetime="2026-11-05">5 November 2026</time>
-            </p>
-        </header>
-
-        <p>
-            This privacy policy describes how <strong>PriceScan</strong> (“the app”,
-            “we”, “us”) handles information when you use our mobile application on
-            Android and iOS. By using the app, you agree to this policy. If you do
-            not agree, please do not use the app.
-        </p>
-
-        <h2>Summary</h2>
-        <ul>
-            <li>
-                Camera images used for text recognition (OCR) are processed on your
-                device. We do not upload your photos to our servers.
-            </li>
-            <li>
-                Exchange-rate requests go to a public rate provider and include
-                currency codes (and standard network data such as your IP address on
-                their side)—not your camera images.
-            </li>
-            <li>
-                Optional scan history and app settings are stored locally on your
-                device until you delete them.
-            </li>
-            <li>
-                The free version shows ads through Google AdMob, which may collect
-                data for advertising as described below.
-            </li>
-            <li>
-                You can buy a one-time “Remove ads” purchase through Google Play or
-                the App Store; payment is handled entirely by the store, not by us.
-            </li>
-        </ul>
-
-        <h2>Information we process</h2>
-
-        <h3>Camera and on-device OCR</h3>
-        <p>
-            PriceScan uses your device camera to read prices and text from labels
-            and menus. Frames you capture are processed on-device for optical
-            character recognition (OCR). That processing does not send your images to
-            servers operated by us. You control camera access through your device
-            settings; the app cannot scan without permission you grant.
-        </p>
-
-        <h3>Scan history (on your device)</h3>
-        <p>
-            If you use scan history, the app may save entries locally on your
-            device, including cropped images and related conversion details (such as
-            amounts and currency hints). This data stays on your device unless you
-            clear history in the app or uninstall the app. We do not receive a copy
-            of your scan history.
-        </p>
-
-        <h3>Exchange rates</h3>
-        <p>
-            To show live conversions, the app requests exchange rates from
-            <a href="https://www.frankfurter.app/" rel="noopener noreferrer" target="_blank">Frankfurter</a>
-            (api.frankfurter.dev). Requests include the currency pair being queried
-            (for example USD/EUR). Frankfurter’s servers may log technical data such
-            as IP address and request metadata under their own policies. We do not
-            send photos or OCR text to Frankfurter as part of rate lookups.
-        </p>
-
-        <h3>App preferences and cache</h3>
-        <p>
-            Settings such as theme, language, currency board layout, cached
-            exchange rates, onboarding state, and whether you purchased “Remove
-            ads” are stored locally using your device’s storage (for example
-            SharedPreferences on Android). Clearing app data in system settings
-            removes this information.
-        </p>
-
-        <h3>Advertising (Google AdMob)</h3>
-        <p>
-            When ads are shown, we use the
-            <a href="https://developers.google.com/admob" rel="noopener noreferrer" target="_blank">Google Mobile Ads
-                SDK (AdMob)</a>. Google and its partners may collect and use information such as
-            device identifiers, coarse location (if available to the SDK), app
-            activity related to ads, and diagnostic data to serve and measure ads,
-            including personalized ads where allowed by your settings and applicable
-            law.
-        </p>
-        <p>
-            You can limit ad personalization on your device (for example, “Opt out
-            of Ads Personalization” on Android or “Limit Ad Tracking” on iOS). If you
-            purchase <strong>Remove ads</strong>, banner advertisements in the app
-            are turned off; the SDK may still initialize as part of the app, but ad
-            units are not displayed while your entitlement is active.
-        </p>
-        <p>
-            Learn more in
-            <a href="https://policies.google.com/privacy" rel="noopener noreferrer" target="_blank">Google’s Privacy
-                Policy</a>
-            and
-            <a href="https://policies.google.com/technologies/partner-sites" rel="noopener noreferrer"
-                target="_blank">How Google uses data from sites or apps that use our services</a>.
-        </p>
-
-        <h3>In-app purchases</h3>
-        <p>
-            The optional non-consumable product
-            <strong>Remove ads</strong> (product ID:
-            <code>com.justindev.pricescan.no_ads</code>) is sold through
-            <strong>Google Play</strong> or the <strong>Apple App Store</strong>.
-            We do not collect or store your payment card details. Purchase and
-            restore flows are handled by the store; we only store a local flag that
-            you own the entitlement so the app can hide ads.
-        </p>
-
-        <h3>Reviews and external links</h3>
-        <p>
-            If you choose “Leave a review”, the app may open the store’s review
-            flow. Optional support links (for example, a “Buy me a coffee” page)
-            open in your browser; those sites have their own privacy policies.
-        </p>
-
-        <h2>What we do not do</h2>
-        <ul>
-            <li>We do not require you to create an account in PriceScan.</li>
-            <li>
-                We do not operate our own backend that receives your camera photos for
-                OCR.
-            </li>
-            <li>
-                We do not sell your personal information as a standalone product.
-            </li>
-        </ul>
-
-        <h2>Legal bases (EEA/UK users)</h2>
-        <p>
-            Where GDPR applies, we process data to provide the app (contract /
-            legitimate interest), to show ads in the free version (consent or
-            legitimate interest depending on ad type and your choices), and to
-            comply with legal obligations. You may have rights to access, delete, or
-            restrict processing of personal data held by third parties such as
-            Google; contact them using the links above. For data stored only on your
-            device, you can delete it via the app or by clearing app storage.
-        </p>
-
-        <h2>Children</h2>
-        <p>
-            The app is not directed at children under 13 (or the minimum age in
-            your country). We do not knowingly collect personal information from
-            children. If you believe a child has provided information through a
-            third-party ad or store flow, contact us and we will help you address it
-            with the relevant provider.
-        </p>
-
-        <h2>Changes</h2>
-        <p>
-            We may update this policy from time to time. The “Last updated” date at
-            the top will change when we do. Continued use of the app after changes
-            means you accept the updated policy. For material changes, we may also
-            show a notice in the app.
-        </p>
-
-        <h2>Contact</h2>
-        <p>
-            Questions about this privacy policy or PriceScan data practices:
-        </p>
-        <ul>
-            <li>
-                Email:
-                <a href="mailto:justinlau99dev@gmail.com">justinlau99dev@gmail.com</a>
-            </li>
-            <li>
-                Support:
-                <a href="https://buymeacoffee.com/liang_99" rel="noopener noreferrer"
-                    target="_blank">buymeacoffee.com/liang_99</a>
-            </li>
-        </ul>
-
-        <p class="related">
-            See also: <a href="disclaimer.html">Disclaimer (not financial advice)</a>
-        </p>
-
-        <footer>
-            {% include copy-footer.html app="PriceScan" start=2026 %}
-        </footer>
-    </main>
-</body>
-
-</html>
+<p class="related">
+    See also: <a href="disclaimer.html">Disclaimer (not financial advice)</a>
+</p>

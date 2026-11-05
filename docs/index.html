@@ -1,106 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Privacy policies and disclaimers for mobile apps." />
-    <title>App policies</title>
-    <style>
-        :root {
-            color-scheme: light dark;
-            --text: #1a1a1a;
-            --muted: #555;
-            --border: #ddd;
-            --bg: #fafafa;
-            --link: #1565c0;
-        }
-
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --text: #e8e8e8;
-                --muted: #aaa;
-                --border: #333;
-                --bg: #121212;
-                --link: #64b5f6;
-            }
-        }
-
-        body {
-            margin: 0;
-            font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: var(--text);
-            background: var(--bg);
-        }
-
-        main {
-            max-width: 36rem;
-            margin: 0 auto;
-            padding: 2rem 1.25rem 3rem;
-        }
-
-        h1 {
-            font-size: 1.5rem;
-            margin: 0 0 0.5rem;
-        }
-
-        p.lead {
-            color: var(--muted);
-            margin: 0 0 2rem;
-        }
-
-        ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        li {
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            margin-bottom: 0.75rem;
-            padding: 1rem 1.1rem;
-        }
-
-        .app-name {
-            font-weight: 600;
-            margin-bottom: 0.35rem;
-        }
-
-        .app-meta {
-            font-size: 0.9rem;
-            color: var(--muted);
-            margin-bottom: 0.75rem;
-        }
-
-        .doc-links {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.75rem 1.25rem;
-        }
-
-        .doc-links a {
-            color: var(--link);
-        }
-    </style>
-</head>
-
-<body>
-    <main>
-        <h1>App policies</h1>
-        <p class="lead">Privacy policies and disclaimers for app store listings.</p>
-        <ul>
-            <li>
-                <div class="app-name">PriceScan</div>
-                <div class="app-meta">pricescan · com.justindev.pricescan</div>
-                <div class="doc-links">
-                    <a href="pricescan/privacy.html">Privacy policy</a>
-                    <a href="pricescan/disclaimer.html">Disclaimer</a>
-                </div>
-            </li>
-        </ul>
-    </main>
-</body>
-
-</html>
+---
+layout: home
+title: App policies
+description: Privacy policies and disclaimers for mobile apps.
+---
+<h1>App policies</h1>
+<p class="lead">Privacy policies and disclaimers for app store listings.</p>
+<ul>
+    <li>
+        <div class="app-name">PriceScan</div>
+        <div class="app-meta">pricescan · com.justindev.pricescan</div>
+        <div class="doc-links">
+            <a href="{{ site.baseurl }}/pricescan/privacy.html">Privacy policy</a>
+            <a href="{{ site.baseurl }}/pricescan/disclaimer.html">Disclaimer</a>
+        </div>
+    </li>
+</ul>
