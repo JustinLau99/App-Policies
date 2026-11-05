@@ -1,0 +1,15 @@
+<p>&copy;
+    <span class="js-copy-year" data-start="{{ include.start | default: 2026 }}">{{ include.start | default: 2026
+        }}
+    </span>
+    {{ include.app | default: "PriceScan" }}. All rights reserved.
+</p>
+<script>
+    (function () {
+        document.querySelectorAll(".js-copy-year").forEach(function (el) {
+            var start = parseInt(el.getAttribute("data-start"), 10) || 2026;
+            var now = new Date().getFullYear();
+            el.textContent = now > start ? start + "\u2013" + now : String(start);
+        });
+    })();
+</script>

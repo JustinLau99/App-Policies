@@ -1,54 +1,17 @@
-# App-Policies
+# App policies
 
-Public HTML privacy policies and disclaimers for app store listings.
+Privacy policies and disclaimers for mobile apps.
 
-Hosted with [GitHub Pages](https://pages.github.com/) from this repository.
+**Website:** [justinlau99.github.io/App-Policies](https://justinlau99.github.io/App-Policies/)
 
-## Layout
+## Apps
 
-```text
-App-Policies/
-└── docs/
-    ├── index.html
-    ├── pricescan/
-    │   ├── privacy.html
-    │   └── disclaimer.html
-    └── audiotext/          # add when ready
-        ├── privacy.html
-        └── disclaimer.html
-```
+| App | Privacy policy | Disclaimer |
+|-----|----------------|------------|
+| PriceScan | [Privacy policy](https://justinlau99.github.io/App-Policies/pricescan/privacy.html) | [Disclaimer](https://justinlau99.github.io/App-Policies/pricescan/disclaimer.html) |
 
-- **`docs/`** — all published HTML lives here (keeps the repo root clean for README, license, etc.).
-- **One folder per app** — use a short slug (`pricescan`, `audiotext`, …).
-- **`privacy.html`** — data collection, third parties, contact.
-- **`disclaimer.html`** — legal disclaimers separate from privacy (e.g. not financial advice).
+Each app’s pages live under `docs/<app-name>/` in this repository. The site is published with [GitHub Pages](https://pages.github.com/) from the `docs/` folder.
 
-## Published URLs
+## Contact
 
-Enable Pages from the **`/docs`** folder (see below). URLs look like:
-
-| App       | Privacy | Disclaimer |
-|-----------|---------|------------|
-| PriceScan | `https://justinlau99.github.io/App-Policies/pricescan/privacy.html` | `https://justinlau99.github.io/App-Policies/pricescan/disclaimer.html` |
-
-Index: `https://justinlau99.github.io/App-Policies/`
-
-Use the **privacy** URL in Google Play and App Store Connect. Link the **disclaimer** from the app or store listing if needed.
-
-## Enable GitHub Pages
-
-1. Push this repo to `JustinLau99/App-Policies`.
-2. On GitHub: **Settings → Pages**.
-3. **Build and deployment → Source:** Deploy from a branch.
-4. **Branch:** `main`, folder **`/docs`**.
-5. Save. The site may take a few minutes to go live.
-
-## Adding another app
-
-1. Create `docs/<app-slug>/privacy.html` and `docs/<app-slug>/disclaimer.html` (omit disclaimer if not needed).
-2. Add an entry in `docs/index.html` with links to both files.
-3. Default contact: `justinlau99dev@gmail.com` unless the app uses a different address.
-
-## Source of truth
-
-Edit policies **here**. App repos should link to these public URLs, not maintain a second copy.
+Policy questions: [justinlau99dev@gmail.com](mailto:justinlau99dev@gmail.com)
